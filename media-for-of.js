@@ -11,3 +11,11 @@ for ( let nota of notas) {
 const media = somaDasNotas / notas.length;
 
 console.log(`A média das notas é ${media}`);
+
+const numerosPares = [];
+
+for (let i = 0; i <= 100; i += 2) {
+  numerosPares.push(i);
+}
+
+console.log(numerosPares);
