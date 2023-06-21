@@ -1,5 +1,5 @@
 const notas = [7, 7, 8, 9];
-
+                    //spread operator
 const novasNotas = [...notas];
 
 novasNotas.push(10);
