@@ -15,3 +15,9 @@ function calculaMedia(notasDaSala) {
 console.log(`A média da sala JavaScript é ${calculaMedia(salaJS)}`)
 console.log(`A média da sala Java é ${calculaMedia(salaJava)}`)
 console.log(`A média da sala Python é ${calculaMedia(salaPython)}`)
+
+const numeros = [43, 50, 65, 12]
+
+const soma = numeros.reduce((acc, atual) => atual + acc, 0)
+
+console.log(soma) //170
